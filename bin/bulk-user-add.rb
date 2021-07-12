@@ -10,7 +10,7 @@ require "paypal"
 ACCOUNT_PREFIX="EX"
 MAX_CHARACTERS=16
 # priv_permission_contact
-PRIVILEGES=["priv_view_balance", "priv_view_profile", "priv_edit_profile", "priv_api_access"]
+PRIVILEGES=["priv_view_balance", "priv_view_profile", "priv_edit_profile", "priv_api_access","permissions"]
 
 users = YAML.load_file("paypal-users.yaml")
 accounts = YAML.load_file("paypal.yaml")

@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-azuretools.vscode-docker",
+        "vscjava.vscode-java-debug",
+        "redhat.java",
+        "slevesque.vscode-link",
+        "felixfbecker.php-debug",
+        "ms-vscode-remote.remote-containers",
+        "dotjoshjohnson.xml",
+        "rebornix.ruby"
+    ]
+}

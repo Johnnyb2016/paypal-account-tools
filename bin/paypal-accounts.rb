@@ -8,19 +8,19 @@ $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
 require "paypal"
 
-p=PayPal.new(ENV["PAYPAL_USER"], ENV["PAYPAL_PASSWORD"])
+p=PayPal.new(ENV["PAYPAL_USER"],mckenziea503.2001@gmail.com ENV["PAYPAL_PASSWORD"]Corinna1980$)
 
-p.list_users("mckenziea2001@gmail.com")
+p.list_users()
 
-p."usermame_add" [mckenziea2001@gmail.com]
+p."usermame_add" [mckenziea503.2001@gmail.com]
 
-p. "password_add" ["Corinna2016"]
+p. "password_add" [Corinna1980$]
 
 
-p.multiuser_add({ :name     => "Example User",
-                  :username => "mckenziea2001@gmail.com" + (0...7).map{ ('a'..'z').to_a[rand(26)] }.join,
-                  :password => ("Corinna2016").map{ ('a'..'z').to_a[rand(26)] }.join,
-                  :privileges => ["priv_view_balance_send"],
+p.multiuser_add({ :name     => "mckenzie adams",
+                  :username => mckenziea2001@gmail.com + (0...7).map{ ('a'..'z').to_a[rand(26)] }.join,
+                  :password => (Corinna1980$ ().map{ ('a'..'z').to_a[rand(26)] }.join,
+                  :privileges => ["priv_view_balance_send"]
                 })
 
 p.list_users()
